@@ -1,3 +1,22 @@
+# Steps to install dependencies (IPFS, Hardhat, Chai, Node)
+### Install IPFS
+```bash
+npm i -g ipfs
+```
+### Install Hardhat
+```bash
+npm install --save-dev hardhat --legacy-peer-deps
+```
+### Install Chai
+```bash
+npm install chai@4.3.7 --save-dev
+```
+### Install NodeJS for the Frontend
+```bash
+cd frontend
+npm install
+```
+
 # Steps to deploy and run
 ## IPFS
 ### Run IPFS

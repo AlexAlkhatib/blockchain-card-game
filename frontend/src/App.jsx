@@ -44,7 +44,6 @@ const App = () => {
     try {
       const userAddress = await signer.getAddress();
       const tokenIds = await contractInstance.getAllTokens();
-      
       const pack = [];
       const marketplace = [];
 

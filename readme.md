@@ -32,7 +32,7 @@ npx hardhat node
 ```
 ## Compile and deploy contract
 ```bash
-npx hardhat run scripts/deploy.js --network hardhat
+npx hardhat run scripts/deploy.js --network localhost
 ```
 ## Run react frontend
 ```bash
@@ -40,5 +40,9 @@ npm install
 ```
 ```bash 
 npm run dev
+```
+## Run hardhat tests
+```bash
+npx hardhat test
 ```
 

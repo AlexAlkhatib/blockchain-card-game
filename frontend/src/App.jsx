@@ -44,7 +44,6 @@ const App = () => {
     try {
       const userAddress = await signer.getAddress();
       const tokenIds = await contractInstance.getAllTokens();
-      
       const pack = [];
       const marketplace = [];
 
@@ -84,7 +83,7 @@ const App = () => {
 
     try {
       const generator = new CardMetadataGenerator();
-      const metadata = await generator.createRandomCard();
+      const metadata = await generator.createTestCard();
 
       console.log("Random metadata is:", JSON.stringify(metadata));
 

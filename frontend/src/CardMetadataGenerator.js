@@ -24,6 +24,20 @@ class CardMetadataGenerator {
       lastTransferAt: timestamp
     };
   }
+  async createTestCard() {
+    return {
+    "name": "A super cool Mage",
+    "type": "Mage",
+    "value": "Legendary",
+    "hash": "",
+    "previousOwners": [],
+    "createdAt": "1738936660",
+    "lastTransferAt": "1738936660"
+    };
+
+  }
 }
+
+
 
 export default CardMetadataGenerator;

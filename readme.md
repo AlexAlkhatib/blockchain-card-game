@@ -22,4 +22,8 @@ npm install
 ```bash 
 npm run dev
 ```
+## Run hardhat tests
+```bash
+npx hardhat test
+```
 
